@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "rachapungphone",
+  "version": "${version}",
+  "name": "RACHAPUNG Phone Mod",
+  "description": "มือถือ RACHAPUNG ใน Minecraft พร้อมแอป YouTube Shorts และฟีเจอร์ใช้งานในเกม",
+  "authors": [
+    "RACHAPUNG"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/rachapungphone/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.rachapung.phonemod.RachapungPhoneMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "*",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
